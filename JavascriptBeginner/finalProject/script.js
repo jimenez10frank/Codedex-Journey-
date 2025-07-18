@@ -7,7 +7,7 @@ async function fetchWeather(){
     // here it changes it from display none to block
     weatherDataSection.style.display = "flex";
     // your api key:)
-    const apiKey = "e4f7c7a2c868186624aa1e6af7c57e20";
+    const apiKey = "your own api";
     // error handling for when empty search
     if(searchInput == "") {
         weatherDataSection.innerHTML = `
